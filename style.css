@@ -1,0 +1,38 @@
+body
+{
+    background-color: rgb(32, 36, 62) ;
+    opacity: 0.8;
+    scroll-behavior: smooth;
+}
+li
+{
+    list-style: none;
+    padding: 18px 0px;
+}
+li a 
+{
+    text-decoration: none;
+    opacity: 0.5;
+    color: azure;
+    margin: 3px 8px;
+    padding: 8px 24px;
+    border-radius: 5px;
+    transition: all ease 1s; 
+}
+li a:hover
+{
+    opacity: 1;
+    background-color: rgb(76, 67, 67);
+    font-size: 18px;
+}
+
+.navbar
+{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(30, 26, 26);
+    position: absolute;
+    height: 54px;
+    width: 98%;
+    border-radius: 12px;
+}
