@@ -24,6 +24,7 @@ li a:hover
     opacity: 1;
     background-color: rgb(76, 67, 67);
     font-size: 18px;
+    box-shadow: 2px;
 }
 
 .navbar
@@ -35,4 +36,5 @@ li a:hover
     height: 54px;
     width: 98%;
     border-radius: 12px;
+    box-sizing: border-box;
 }
